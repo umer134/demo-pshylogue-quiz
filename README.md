@@ -20,7 +20,9 @@ bash
 
 touch .env.local
 Вставь в .env.local:
-NEXT_PUBLIC_SEND_PICS_URL=https://sirius-draw-test-94500a1b4a2f.herokuapp.com
+NEXT_PUBLIC_SEND_PICS_URL=роут для отправки первых 3 фото
+NEXT_PUBLIC_SUBMIT_SURVEY_URL=роут для запроса на проверку опросника
+
 Запусти локально:
 "@reduxjs/toolkit": "^2.8.2",
     "lucide-react": "^0.513.0",
